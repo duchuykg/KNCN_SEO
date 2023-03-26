@@ -1,0 +1,16 @@
+# invoke rewrite engine
+    RewriteEngine On
+    RewriteBase /html5up-forty/
+    RewriteRule ^qua-trinh-seo$ "process/process.html"
+    RewriteRule ^qua-trinh-seo/seo-on-page$ "process/onpage.html"
+    RewriteRule ^qua-trinh-seo/seo-off-page$ "process/offpage.html"
+    RewriteRule ^qua-trinh-seo/technical-seo$ "process/technical.html"
+    RewriteRule ^qua-trinh-seo/nghien-cuu-tu-khoa$ "process/tukhoa.html"
+    RewriteRule ^nghien-cuu-ve-seo$ "index.html"
+    RewriteRule ^home$ "index.html"
+    RewriteRule ^tieu-chi-danh-gia-seo$ "danhgia.html"
+    RewriteRule ^seo-la-gi$ "research.html"
+    RewriteRule ^loi-ich-cua-seo$ "benefit.html"
+    RewriteRule ^san-pham-nghien-cuu-seo$ "product.html"
+    RewriteRule ^han-che-cua-seo$ "hanche.html"
+    RewriteRule ^ve-chung-toi$ "about.html"
